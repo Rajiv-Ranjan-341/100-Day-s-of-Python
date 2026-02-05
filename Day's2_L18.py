@@ -1,0 +1,7 @@
+print("Welcome to bill calculater!!")
+bill= input("Enter the total amount of your bill:")
+split_bill= input("How many pepole will split the bill: ")
+# print(type(split_bill))
+total_amount = float(bill)/float(split_bill)
+# print(type(total_amount))
+print("The total amount of your bill is:",total_amount)
