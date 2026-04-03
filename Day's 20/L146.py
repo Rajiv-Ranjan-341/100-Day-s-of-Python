@@ -35,7 +35,7 @@ while is_game_on:
     screen.update()
     time.sleep(0.1)
     snake.move_snake()
-#SNAKE GONNA EAT THE FOOD
+#SNAKE WILL EAT THE FOOD
     if snake.head.distance(food)< 15:
         food.refresh()
         snake.extended_snake()
