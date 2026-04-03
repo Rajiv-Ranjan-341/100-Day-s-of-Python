@@ -5,8 +5,6 @@ from scoreboard import Scoreboard
 
 import time
 
-
-
 screen = Screen()
 screen.setup(800, 600)
 screen.bgcolor("black")
@@ -52,8 +50,6 @@ while is_game_on:
             is_game_on = False
             scoreboard.game_over()
 
-
-
-
-
 screen.exitonclick()
+
+
