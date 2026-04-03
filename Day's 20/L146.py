@@ -5,6 +5,8 @@ from scoreboard import Scoreboard
 
 import time
 
+
+
 screen = Screen()
 screen.setup(800, 600)
 screen.bgcolor("black")
