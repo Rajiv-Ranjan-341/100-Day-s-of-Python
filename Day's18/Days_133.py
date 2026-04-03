@@ -1,6 +1,8 @@
 from turtle import Turtle ,Screen
 import random
 
+screen = Screen()
+screen.bgcolor('black')
 colours = ['red', 'blue', 'green', 'yellow', 'cyan', 'purple', 'pink']
 tim = Turtle()
 tim.pensize(10)
@@ -12,5 +14,5 @@ for _ in range(100):
     tim.forward(30)
     tim.setheading(random.choice(dic))
 
-screen = Screen()
+
 screen.exitonclick()
